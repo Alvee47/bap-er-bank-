@@ -49,6 +49,10 @@ document.getElementById('withdraw-button').addEventListener('click',function(){
     const  newWithdrawAmountText = withdrawInput.value 
     const newWithdrawAmount = parseFloat(newWithdrawAmountText)
 
+    // console.log(newWithdrawAmount); 
+
+    // handle withdraw total
+
     const withdrawTotal = document.getElementById('withdraw-total')
 
     const previousWithdrawText = withdrawTotal.innerText
@@ -66,7 +70,7 @@ document.getElementById('withdraw-button').addEventListener('click',function(){
 
     const balanceTotal = document.getElementById('balance-total');
 
-    const previousbalanceText = balanceTotal.innertext ;
+    const previousbalanceText = balanceTotal.innerText ;
 
     const previousBalanceAmount = parseFloat(previousbalanceText)
 
